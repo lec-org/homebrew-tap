@@ -1,9 +1,9 @@
 cask "orbit" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.7"
-  sha256 arm:   "eee04b73735110cd289dd553f67ce0d6bc3227a00de2ed62bbab374cae32d2f4",
-         intel: "f4a19ca5778afd7bb76a183995f44943d825b7a9c87925db626f7fb98be2db57"
+  version "0.1.8"
+  sha256 arm:   "34a9ac751634d647deafc3158e7eb94877e1676dd83dd306ab8757f60b151886",
+         intel: "299cccede4e868fd5483594a304fe4de672c65f3162485b13ecc201b0b5478ac"
 
   url "https://github.com/lec-org/lec-orbit/releases/download/v#{version}/Orbit-#{version}-mac-#{arch}.dmg"
   name "Orbit"
